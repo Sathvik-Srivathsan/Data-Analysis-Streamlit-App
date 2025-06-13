@@ -1,14 +1,14 @@
-#Data Analyst Agent
+# Data Analyst Agent
 
 A Streamlit app to chat with your documents. Upload a file and ask the AI to analyze, summarize, or create visualizations from it.
 
-##Setup
+## Setup
 
-###Install Libraries:
+### Install Libraries:
 
     pip install streamlit pandas pypdf python-docx openpyxl replicate
 
-###Add API Key:
+### Add API Key:
 
         Create a folder named .streamlit (note the leading dot) in your project's root directory.
 
@@ -20,11 +20,11 @@ A Streamlit app to chat with your documents. Upload a file and ask the AI to ana
 
         (Replace "your_token_here" with your actual Replicate API token.)
 
-###Run
+### Run
 
     streamlit run app.py
 
-##Code Explanation
+## Code Explanation
 
     Analyst.py: Contains the main Streamlit application logic.
 
@@ -40,5 +40,5 @@ A Streamlit app to chat with your documents. Upload a file and ask the AI to ana
 
     Chat Interface: Manages and displays user and assistant messages, including the execution of any detected visualization code.
 
-Images of Output:
+## Images of Output:
 ![image](https://github.com/user-attachments/assets/a6102daf-3afa-4fbe-9a7f-940f10bfa39a)
